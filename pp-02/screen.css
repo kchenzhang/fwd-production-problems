@@ -10,8 +10,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-
+/*
+Setting type according to a 3:4 (Perfect Fourth) Modular Scale:
+https://www.modularscale.com/?20&%20px&1.333
+*/
 html{
   font-family:'Roboto',Roboto;
-
+  font-size: 1.25em; /* 20px / 16px =1.25 */
+  line-height: 1.25em; /* 25px / 20px = 1.25 */
+  padding: 25px 12.5px 25px 12.5px; /* TRBL */
 }
