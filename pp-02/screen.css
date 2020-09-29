@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-@import url('//basehold.it/25');
-
+@import url('#//basehold.it/25');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -15,8 +14,29 @@ Setting type according to a 3:4 (Perfect Fourth) Modular Scale:
 https://www.modularscale.com/?20&%20px&1.333
 */
 html{
-  font-family:'Crimson Text';
+  font-family:'Crimson Text','Hoefler', Georgia,'Times New Roman',Times,Roman,serif;
   font-size: 1.25em; /* 20px / 16px =1.25 */
   line-height: 1.25em; /* 25px / 20px = 1.25 */
   padding: 25px 12.5px 25px 12.5px; /* TRBL */
+  background-color: #ffe6cc;
+}
+h1{
+  font-size: 1.333em; /*26.66px / 20px = 1.333 */
+  line-height: 0.7033008252em; /*18.75 / 26.66 = 0.7033008252 */
+  padding-bottom: 12.5px;
+}
+h2{
+  font-size: 1.25em;
+  font-weight:bold;
+  line-height: 0.9375em; /*18.75 / 20 = 0.9375 */
+  color: #993300;
+  padding-bottom: 12.5px;
+}
+p{
+  padding-bottom: 12.5px;
+}
+ul {
+  margin-left: 12.5px;
+  padding-bottom: 8.3333333333px;
+  list-style-type: disc;
 }
