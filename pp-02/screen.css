@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url('//basehold.it/25');
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -15,7 +15,7 @@ Setting type according to a 3:4 (Perfect Fourth) Modular Scale:
 https://www.modularscale.com/?20&%20px&1.333
 */
 html{
-  font-family:'Roboto',Roboto;
+  font-family:'Crimson Text';
   font-size: 1.25em; /* 20px / 16px =1.25 */
   line-height: 1.25em; /* 25px / 20px = 1.25 */
   padding: 25px 12.5px 25px 12.5px; /* TRBL */
