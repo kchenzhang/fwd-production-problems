@@ -28,6 +28,9 @@ h2{
   font-weight:bold;
   color: #993300;
 }
+p{
+  padding-bottom: 25px;
+}
 
 ul {
   margin-left: 12.5px;
